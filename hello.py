@@ -79,7 +79,7 @@ y = 99
 z = '10'
 # print(x) 
 
-#floats are used to represent numbers with decimal points
+#floats are used to represent numbers with decimal points or scientific notations
 #you can also use float to perform arithmetic operations 
 a = 3.14
 b = -2.5
@@ -94,6 +94,7 @@ b = False
 # print(type(b))
 
 #operators in python are various. their main function is to operate on variables
+
 #1 arithemtic operators: they perform arithmetic operations
 
 #addition is +
@@ -106,6 +107,7 @@ b = 50
 #division is /
 #modulus is % it calculates the remainder
 #exponential is ** it calculates the power 
+#floor operator(//) example 20//3 
 
 #2 compariosn operators: are used to compare variables or values and returns boolen
 
@@ -136,4 +138,13 @@ a == b
 
 #example2: or operator you use the word 'or'
 #or operator only looks for one true and entire operation is true
-print(a > 30 or b < 30)
+print(a > 30 or b > 30)
+
+#example3 : not operator is simply the 
+
+# #4 assignment operators 
+# (=) assignment
+# (+=) add and assign a+=be
+# (-=) subtract and assign a-=b
+
+
